@@ -11,11 +11,11 @@ const SingerList = ({ singer }) => {
         <>
             <div className='singers'>
                 <h1>Singers</h1>
-                <p style={{fontSize:"26px"}}>Select an artist that matches your vibe.</p>
+                <p style={{ fontSize: "26px" }}>Select an artist that matches your vibe.</p>
             </div>
 
             <div className='card'>
-                {singer.map((data,index) => {
+                {singer.map((data, index) => {
                     return (
                         <div className='card-list' key={index}>
                             <img src={data.image} alt="pic" />

@@ -6,7 +6,7 @@ const About = () => {
             <div className='container'>
                 <div className='head'>
                     <h1>6000+ Users trust StarClinch.</h1>
-                    <p style={{color:"gold",fontSize:"1.1rem"}}>Booking Terms & Conditions</p>
+                    <p style={{ color: "gold", fontSize: "1.1rem" }}>Booking Terms & Conditions</p>
                 </div>
                 <div className='head1'>
                     <h1>BOOKING TERMS & CONDITIONS FOR CLIENT</h1>
